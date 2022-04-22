@@ -7,6 +7,7 @@ html, body {
   height: 100%;
   
 }
+
 html {
   box-sizing: border-box;
 }
@@ -430,6 +431,7 @@ User Network
 }
 
 .user-network h2 {
+   font-family:'Teko', sans-serif;
   font-size: 12pt;
 }
 
@@ -821,6 +823,9 @@ section a {
 .profile-pic:hover {
   filter: grayscale(0%);
   cursor: pointer;
+  transform: scale(2.00); 
+  transform: rotate(360deg);
+  transition: 2.5s;
 }
 
 .schools {
@@ -868,3 +873,20 @@ section a {
   cursor: pointer;
   text-decoration: underline;
 }
+/*animation
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}*/
